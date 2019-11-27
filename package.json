@@ -1,0 +1,22 @@
+{
+    "name": "React",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel ./src/index.html"
+    },
+    "repository": "https://github.com/YueHui/React.git",
+    "author": "孔跃辉 <527329923@qq.com>",
+    "license": "MIT",
+    "dependencies": {
+        "@babel/core": "^7.7.4",
+        "clean-webpack-plugin": "^3.0.0",
+        "html-webpack-plugin": "^3.2.0",
+        "parcel": "^1.12.4",
+        "uglifyjs-webpack-plugin": "^2.2.0",
+        "webpack": "^4.41.2"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.7.4"
+    }
+}
