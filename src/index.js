@@ -1,12 +1,14 @@
 import React,{ReactDOM} from './react';
 
 /** @jsx React.createElement */
-const element = (
-	<div>
-		<h1>hello</h1>
+function App(){
+	const [state,setState] = React.useState(1);
+	return <div>
+		<h1>count: {state}</h1>
+		<button onClick={()=>setState(v=>v+1)}>加1</button>
 	</div>
-);
+}
 
 const container = document.getElementById("root");
-ReactDOM.render(element, container);
+ReactDOM.render(<App />, container);
 
